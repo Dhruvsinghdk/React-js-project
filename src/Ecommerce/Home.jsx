@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Carosel from "./Carosel";
 
+import video from './Rec.mp4'
+
 
 
 
@@ -48,7 +50,11 @@ const Home = ()=>{
         {ans}
        
        </Row>
-  </div>    
+  </div>   
+
+  <video controls = "controls" aut src={video} width="900" height="300px" >
+    
+  </video>
   
         </>
     );

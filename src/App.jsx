@@ -4,7 +4,7 @@ import Home from "./Ecommerce/Home";
 import Show from "./Ecommerce/Show";
 import Write from "./Ecommerce/Write";
 import AboutUs from "./write/AboutUs";
-
+import Minitv from "./Ecommerce/Minitv";
 
 
 const App = ()=>{
@@ -21,10 +21,13 @@ const App = ()=>{
       <Route path="Home" element={<Home/>}/>
       <Route path="Show" element={<Show/>}/>
       <Route path="AboutUs" element={<AboutUs/>}/>
+      <Route path="Minitv" element={<Minitv/>}/>
       </Route>
     </Routes>
     </BrowserRouter>
-    
+
+
+
     </div>
     
     </>

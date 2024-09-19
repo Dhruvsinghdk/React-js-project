@@ -15,7 +15,7 @@ const Navy = ()=>{
     const navigate = useNavigate();
 
     const About = ()=>{
-        navigate("AboutUs")
+      navigate("AboutUs")
     }
 
     return(
@@ -27,7 +27,7 @@ const Navy = ()=>{
           <Nav className="me-auto">
             <Nav.Link as={Link} to="Home">Home</Nav.Link>
             <Nav.Link as={Link} to="Show">Show {card.qty}</Nav.Link>
-           
+            <Nav.Link as={Link} to="Minitv">Mini Tv</Nav.Link>
           </Nav>
         </Container>
      </Navbar>
