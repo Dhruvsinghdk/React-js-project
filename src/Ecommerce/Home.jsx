@@ -3,7 +3,7 @@ import Data from "./Data";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { addtocart } from "./Slice";
-import Carousel from 'react-bootstrap/Carousel';
+
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Carosel from "./Carosel";
@@ -52,7 +52,7 @@ const Home = ()=>{
        </Row>
   </div>   
 
-  <video controls = "controls" aut src={video} width="900" height="300px" >
+  <video controls = "controls" autoPlay="autoPlay" src={video} width="1200" >
     
   </video>
   

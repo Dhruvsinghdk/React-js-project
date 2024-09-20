@@ -21,13 +21,39 @@ const Navy = ()=>{
     return(
         <>
 <div align = "center">
-<Navbar bg="success" data-bs-theme="dark">
+<Navbar bg="secondary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">ALL</Navbar.Brand>
           <Nav className="me-auto">
+          <div style={{padding:"30px"}}>
             <Nav.Link as={Link} to="Home">Home</Nav.Link>
-            <Nav.Link as={Link} to="Show">Show {card.qty}</Nav.Link>
+            </div>
+
+            <div style={{padding:"30px"}}>
             <Nav.Link as={Link} to="Minitv">Mini Tv</Nav.Link>
+            </div>
+
+            <div style={{padding:"30px"}}>
+            <Nav.Link as={Link} to="Sell">Sell</Nav.Link>
+            </div>
+
+            <div style={{padding:"30px"}}>
+            <Nav.Link as={Link} to="Signin">Signin</Nav.Link>
+            </div>
+
+            <div style={{padding:"30px"}}>
+            <Nav.Link as={Link} to="Today">Today Deals</Nav.Link>
+            </div>
+
+            <div style={{padding:"30px"}}>
+            <Nav.Link as={Link} to="Fashion">Fashion</Nav.Link>
+            </div>
+
+            <div style={{padding:"30px"}}>
+            <Nav.Link as={Link} to="Show">Show {card.qty}</Nav.Link>
+            </div>
+
+
           </Nav>
         </Container>
      </Navbar>

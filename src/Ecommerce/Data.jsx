@@ -9,43 +9,43 @@ import img11 from './images/R11.jpg'
 
 const Data = [
     {
-        id:1,
+        id:"",
         img:img1,
         Nm:"Fruits"
     },
     {
-        id:2,
+        id:"Accessories",
         img:img2,
         Nm:"Mobile"
     },
     {
-        id:3,
+        id:"Collection",
         img:img3,
         Nm:"Heros"
     },
     {
-        id:4,
+        id:"Perfume",
         img:img7,
         Nm:"Products"
     },
     {
-        id:5,
+        id:"Gods",
         img:img8,
-        Nm:"Gods"
+        Nm:"Hindu"
     },
     ,
     {
-        id:6,
+        id:"Bluetooth",
         img:img9,
         Nm:"Headphones"
     },
     {
-        id:7,
+        id:"Mens&Womens",
         img:img10,
         Nm:"Clothes"
     },
     {
-        id:8,
+        id:"Automobile",
         img:img11,
         Nm:"Mercedes-Benz"
     }

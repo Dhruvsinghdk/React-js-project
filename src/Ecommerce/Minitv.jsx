@@ -44,7 +44,7 @@ const Minitv = ()=>{
         <>
         <Carousel>
       <Carousel.Item>
-       <img src={img1} width="1800px" height="500px"  />
+       <img src={img1} width="1800px" height="400px"  />
         <Carousel.Caption>
           <h3>Avatar</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -52,7 +52,7 @@ const Minitv = ()=>{
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={img2} width="1800px" height="500px"  />
+      <img src={img2} width="1800px" height="400px"  />
         <Carousel.Caption>
           <h3>Price Of Persia</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -60,7 +60,7 @@ const Minitv = ()=>{
       </Carousel.Item>
 
       <Carousel.Item>
-      <img src={img3} width="1800px" height="500px"  />
+      <img src={img3} width="1800px" height="400px"  />
         <Carousel.Caption>
           <h3>Underworld</h3>
           <p>
@@ -71,7 +71,7 @@ const Minitv = ()=>{
 
 
       <Carousel.Item>
-      <img src={img4} width="1800px" height="500px"  />
+      <img src={img4} width="1800px" height="400px"  />
       <Carousel.Caption>
         <h3>Deadpool</h3>
         <p>
