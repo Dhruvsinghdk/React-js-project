@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Please First Run json server on cmd
+to run the db.json file
+to experience full working of sign in and sell page signin page
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+step 1 : json-server --watch db.json
+step 2 : copy link on any browser and check data is comming or not
+step 3 : if not then please copy and paste the url to following apis or urls
+wrritten in the code 
+Note* = delete previous url or api the paste on it
